@@ -11,7 +11,7 @@ const DISCORD_BOT_TOKEN    = process.env.DISCORD_BOT_TOKEN;
 const N8N_WEBHOOK_URL      = process.env.N8N_WEBHOOK_URL;
 const N8N_APPROVAL_WEBHOOK = process.env.N8N_APPROVAL_WEBHOOK;
 const PROXY_SECRET         = process.env.PROXY_SECRET || '';
-const SUPPORT_CHANNEL_ID   = process.env.SUPPORT_CHANNEL_ID || '';
+const SUPPORT_CHANNEL_ID   = process.env.SUPPORT_CHANNEL_ID || '1493618177601568788';
 const PORT                 = process.env.PORT || 3000;
 
 if (!DISCORD_BOT_TOKEN) throw new Error('Missing env: DISCORD_BOT_TOKEN');
